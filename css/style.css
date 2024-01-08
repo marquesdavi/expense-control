@@ -1,0 +1,184 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 12, 20);
+    font-family: 'Lato' ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.3rem;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-dv {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10rem;
+    background-color: rgb(9, 8, 14);
+    color: snow;
+    height: 3.3rem;
+}
+
+/* rgb(72, 0, 255)*/
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-align:center; 
+    align-items: center;
+    font-size:16pt;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 80, 255);
+    border-radius: 5rem;
+    padding: 0.3rem;
+}
+
+#nav-cont {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-anchors {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.nav-anchors:hover {
+    color: rgb(90, 80, 255);
+}
+
+.btn-green {
+    display: flex;
+    background-color: rgb(90, 80, 255);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.btn-green:hover {
+    background-color: rgb(70, 60, 248);
+}
+
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13rem;
+    gap: 15px;
+    width: 16rem;
+    text-align: center;
+    color: white;
+}
+
+textarea, input, select, a { outline: none; border: none; text-decoration: none;}
+.form-fields {
+    display: flex;
+    max-width: 16rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding-inline: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: rgb(0, 190, 79);
+}
+
+.btn-submit {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 5rem;
+}
+
+.btn-new {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-inline: 1rem;
+}
+
+.default-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.exp-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exp-card {
+    background-color: rgb(9, 9, 13);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    
+}
+
+.info-section-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    color: rgb(186, 186, 186);
+    font-size: 10pt;
+}
+
+.info-sec-frag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.btn-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(193, 116, 0);
+    height: 2rem;
+    width: 2rem;
+}
+
+.btn-edit:hover {
+    background-color: rgb(157, 94, 0);
+}
+
